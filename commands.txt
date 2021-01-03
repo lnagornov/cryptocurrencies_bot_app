@@ -1,0 +1,29 @@
+#Still in work...
+
+Here is a list of commands with description what the bot can do:
+
+/h /help /? - show overview by the commands.
+
+/h + /command - show help message for a /command.
+
+/status - show notification status
+
+/top5 - show the top 5 of most expensive currencies.
+/top10 - show the top 10 of most expensive currencies.
+
+/top5cheap - show the top 5 of most cheap currencies
+/top10cheap - show the top 10 of most expensive currencies
+
+/trend + /currency_name + [24, 1, 7] - show trend for last 24 hours, last hour, last 7 days (optionally). Default period is 7 days.
+
+/notifyme + [asap, 24, 1, 7] + /currency_name [/currency_name] + [/mailme your@email.com]  - will send a message for chosen period (optionally):
+    1. asap (as soon as possible), will notify, when the /command will change;
+    2. 24 hours, will notify everyday;
+    3. 1 hour, will notify every hour;
+    4. 7 days, will notify every week;
+    Default period is 7 days.
+    
+    Also you can set /mailme + your@email.com for taking notification by email
+
+/bitcoin - show the price of Bitcoin
+...
